@@ -1,0 +1,4008 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <title>MeteoStorm</title>
+    <desc>MeteoStorm</desc>
+    <!-- Black background -->
+    <rect x="0" y="0" width="512" height="512" fill="black" />
+    <!-- Random stars with size & colour animations to twinkle -->
+	<circle cx="278" cy="331" r="0.6" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.6;0.3;0.6"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="305" cy="229" r="0.86" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.86;0.43;0.86"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="341" cy="315" r="1.42" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.42;0.71;1.42"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="464" cy="387" r="0.85" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.85;0.42;0.85"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="361" cy="225" r="1.46" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.46;0.73;1.46"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="289" cy="214" r="1.71" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.71;0.86;1.71"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="292" cy="179" r="1.58" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.58;0.79;1.58"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="37" cy="468" r="0.3" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.3;0.15;0.3"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="397" cy="150" r="0.98" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.98;0.49;0.98"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="168" cy="441" r="0.37" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.37;0.19;0.37"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="127" cy="362" r="1.42" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.42;0.71;1.42"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="321" cy="167" r="0.53" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.53;0.26;0.53"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="268" cy="100" r="1.15" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.15;0.57;1.15"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="444" cy="437" r="0.42" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.42;0.21;0.42"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="280" cy="322" r="1.66" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.66;0.83;1.66"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="124" cy="187" r="1.36" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.36;0.68;1.36"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="444" cy="45" r="1.19" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.19;0.59;1.19"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="279" cy="91" r="2.2" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.2;1.1;2.2"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="140" cy="319" r="2.0" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.0;1.0;2.0"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="64" cy="179" r="0.21" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.21;0.11;0.21"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="438" cy="19" r="1.4" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.4;0.7;1.4"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="319" cy="405" r="1.18" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.18;0.59;1.18"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="234" cy="449" r="2.06" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.06;1.03;2.06"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="98" cy="59" r="0.33" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.33;0.16;0.33"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="349" cy="22" r="1.18" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.18;0.59;1.18"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="197" cy="68" r="1.74" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.74;0.87;1.74"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="288" cy="372" r="0.83" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.83;0.42;0.83"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="125" cy="411" r="0.75" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.75;0.38;0.75"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="324" cy="137" r="2.0" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.0;1.0;2.0"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="59" cy="56" r="0.5" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.5;0.25;0.5"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="307" cy="225" r="0.52" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.52;0.26;0.52"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="81" cy="127" r="2.17" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.17;1.08;2.17"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="79" cy="416" r="1.38" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.38;0.69;1.38"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="104" cy="44" r="0.69" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.69;0.35;0.69"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="357" cy="449" r="1.67" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.67;0.84;1.67"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="154" cy="23" r="0.56" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.56;0.28;0.56"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="156" cy="485" r="1.55" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.55;0.77;1.55"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="325" cy="195" r="1.82" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.82;0.91;1.82"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="296" cy="441" r="0.35" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.35;0.18;0.35"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="28" cy="305" r="1.88" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.88;0.94;1.88"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="286" cy="350" r="2.03" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.03;1.01;2.03"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="246" cy="298" r="0.96" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.96;0.48;0.96"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="458" cy="381" r="2.03" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.03;1.02;2.03"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="199" cy="228" r="0.44" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.44;0.22;0.44"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="169" cy="86" r="1.53" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.53;0.77;1.53"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="395" cy="345" r="1.82" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.82;0.91;1.82"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="100" cy="43" r="1.55" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.55;0.77;1.55"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="252" cy="297" r="0.55" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.55;0.27;0.55"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="430" cy="188" r="0.88" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.88;0.44;0.88"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="382" cy="100" r="0.7" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.7;0.35;0.7"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="475" cy="401" r="2.02" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.02;1.01;2.02"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="466" cy="88" r="0.68" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.68;0.34;0.68"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="462" cy="271" r="0.21" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.21;0.11;0.21"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="300" cy="203" r="2.13" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.13;1.06;2.13"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="37" cy="116" r="0.95" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.95;0.47;0.95"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="459" cy="473" r="1.82" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.82;0.91;1.82"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="288" cy="447" r="0.67" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.67;0.34;0.67"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="405" cy="307" r="0.8" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.8;0.4;0.8"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="193" cy="229" r="2.18" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.18;1.09;2.18"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="44" cy="388" r="1.76" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.76;0.88;1.76"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="319" cy="305" r="1.56" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.56;0.78;1.56"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="133" cy="108" r="0.88" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.88;0.44;0.88"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="421" cy="290" r="1.36" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.36;0.68;1.36"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="65" cy="338" r="0.63" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.63;0.31;0.63"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="487" cy="84" r="1.7" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.7;0.85;1.7"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="86" cy="387" r="1.0" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.0;0.5;1.0"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="360" cy="447" r="0.76" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.76;0.38;0.76"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="285" cy="282" r="1.59" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.59;0.8;1.59"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="215" cy="406" r="1.06" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.06;0.53;1.06"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="138" cy="293" r="0.82" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.82;0.41;0.82"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="197" cy="121" r="0.49" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.49;0.25;0.49"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="49" cy="263" r="1.97" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.97;0.98;1.97"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="155" cy="187" r="0.4" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.4;0.2;0.4"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="209" cy="472" r="1.88" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.88;0.94;1.88"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="293" cy="147" r="1.82" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.82;0.91;1.82"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="399" cy="58" r="1.73" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.73;0.86;1.73"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="350" cy="31" r="2.17" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.17;1.09;2.17"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="80" cy="410" r="1.18" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.18;0.59;1.18"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="187" cy="479" r="2.05" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.05;1.03;2.05"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="420" cy="128" r="1.6" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.6;0.8;1.6"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="444" cy="296" r="1.32" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.32;0.66;1.32"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="286" cy="330" r="1.6" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.6;0.8;1.6"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="443" cy="90" r="1.86" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.86;0.93;1.86"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="329" cy="56" r="0.73" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.73;0.36;0.73"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="102" cy="482" r="1.29" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.29;0.64;1.29"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="150" cy="20" r="0.33" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.33;0.17;0.33"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="309" cy="225" r="1.94" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.94;0.97;1.94"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="365" cy="489" r="1.19" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.19;0.59;1.19"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="200" cy="437" r="1.24" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.24;0.62;1.24"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="210" cy="276" r="1.61" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.61;0.8;1.61"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="98" cy="249" r="1.96" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.96;0.98;1.96"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="100" cy="338" r="1.92" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.92;0.96;1.92"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="158" cy="305" r="2.06" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.06;1.03;2.06"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="67" cy="245" r="1.07" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.07;0.53;1.07"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="105" cy="58" r="0.62" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.62;0.31;0.62"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="71" cy="36" r="1.77" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.77;0.89;1.77"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="400" cy="332" r="2.0" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.0;1.0;2.0"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="296" cy="143" r="1.68" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.68;0.84;1.68"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="262" cy="425" r="1.5" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.5;0.75;1.5"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="397" cy="324" r="0.31" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.31;0.16;0.31"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="437" cy="463" r="2.02" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.02;1.01;2.02"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="230" cy="413" r="1.7" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.7;0.85;1.7"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="482" cy="283" r="0.21" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.21;0.1;0.21"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="264" cy="296" r="0.65" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.65;0.33;0.65"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="118" cy="341" r="2.19" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.19;1.1;2.19"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="221" cy="59" r="2.17" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.17;1.08;2.17"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="52" cy="386" r="1.89" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.89;0.95;1.89"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="357" cy="162" r="1.97" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.97;0.98;1.97"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="350" cy="249" r="0.4" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.4;0.2;0.4"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="283" cy="444" r="0.72" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.72;0.36;0.72"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="295" cy="168" r="0.48" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.48;0.24;0.48"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="228" cy="25" r="1.49" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.49;0.75;1.49"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="477" cy="271" r="0.42" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.42;0.21;0.42"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="45" cy="286" r="0.85" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.85;0.42;0.85"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="414" cy="476" r="0.95" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.95;0.47;0.95"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="416" cy="390" r="0.46" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.46;0.23;0.46"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="80" cy="97" r="2.17" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.17;1.08;2.17"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="397" cy="54" r="1.7" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.7;0.85;1.7"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="199" cy="320" r="0.41" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.41;0.21;0.41"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="119" cy="360" r="0.65" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.65;0.33;0.65"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="203" cy="261" r="1.38" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.38;0.69;1.38"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="86" cy="109" r="0.51" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.51;0.25;0.51"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="83" cy="60" r="1.9" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.9;0.95;1.9"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="399" cy="366" r="0.87" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.87;0.43;0.87"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="444" cy="320" r="1.91" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.91;0.96;1.91"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="213" cy="89" r="0.55" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.55;0.28;0.55"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="198" cy="203" r="2.13" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.13;1.06;2.13"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="141" cy="151" r="1.03" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.03;0.52;1.03"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="18" cy="273" r="1.48" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.48;0.74;1.48"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="357" cy="36" r="0.88" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.88;0.44;0.88"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="212" cy="465" r="0.65" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.65;0.32;0.65"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="364" cy="417" r="0.56" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.56;0.28;0.56"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="486" cy="201" r="1.91" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.91;0.96;1.91"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="353" cy="424" r="1.01" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.01;0.51;1.01"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="438" cy="178" r="2.14" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.14;1.07;2.14"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="82" cy="382" r="1.03" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.03;0.51;1.03"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="170" cy="57" r="1.27" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.27;0.64;1.27"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="434" cy="196" r="1.56" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.56;0.78;1.56"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="297" cy="177" r="1.98" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.98;0.99;1.98"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="95" cy="362" r="0.67" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.67;0.34;0.67"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="399" cy="210" r="2.09" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.09;1.04;2.09"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="85" cy="17" r="2.1" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.1;1.05;2.1"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="491" cy="258" r="1.57" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.57;0.78;1.57"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="180" cy="479" r="1.79" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.79;0.9;1.79"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="21" cy="374" r="0.42" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.42;0.21;0.42"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="113" cy="126" r="0.39" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.39;0.2;0.39"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="338" cy="359" r="0.79" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.79;0.4;0.79"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="188" cy="165" r="0.8" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.8;0.4;0.8"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="26" cy="103" r="1.36" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.36;0.68;1.36"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="93" cy="381" r="0.34" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.34;0.17;0.34"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="17" cy="128" r="0.42" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.42;0.21;0.42"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="177" cy="226" r="0.6" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.6;0.3;0.6"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="477" cy="279" r="1.95" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.95;0.97;1.95"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="97" cy="459" r="1.96" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.96;0.98;1.96"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="164" cy="436" r="2.01" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.01;1.0;2.01"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="100" cy="83" r="0.91" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.91;0.45;0.91"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="216" cy="268" r="0.98" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.98;0.49;0.98"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="411" cy="153" r="0.8" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.8;0.4;0.8"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="343" cy="176" r="1.74" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.74;0.87;1.74"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="123" cy="51" r="1.03" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.03;0.52;1.03"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="279" cy="416" r="1.79" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.79;0.89;1.79"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="371" cy="195" r="1.65" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.65;0.82;1.65"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="34" cy="166" r="0.78" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.78;0.39;0.78"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="57" cy="439" r="1.64" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.64;0.82;1.64"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="332" cy="488" r="1.69" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.69;0.85;1.69"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="486" cy="491" r="0.64" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.64;0.32;0.64"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="57" cy="437" r="2.1" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.1;1.05;2.1"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="413" cy="347" r="0.85" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.85;0.43;0.85"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="467" cy="491" r="2.13" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.13;1.06;2.13"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="178" cy="145" r="1.43" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.43;0.72;1.43"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="167" cy="32" r="0.36" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.36;0.18;0.36"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="138" cy="431" r="0.91" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.91;0.46;0.91"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="64" cy="39" r="0.75" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.75;0.37;0.75"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="121" cy="248" r="2.12" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.12;1.06;2.12"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="332" cy="51" r="1.72" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.72;0.86;1.72"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="253" cy="371" r="1.51" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.51;0.76;1.51"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="478" cy="270" r="1.13" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.13;0.56;1.13"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="320" cy="251" r="0.73" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.73;0.36;0.73"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="147" cy="412" r="0.67" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.67;0.34;0.67"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="145" cy="45" r="1.35" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.35;0.68;1.35"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="438" cy="476" r="0.29" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.29;0.15;0.29"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="60" cy="235" r="2.16" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.16;1.08;2.16"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="314" cy="122" r="0.29" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.29;0.15;0.29"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="102" cy="479" r="1.29" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.29;0.65;1.29"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="114" cy="255" r="0.88" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.88;0.44;0.88"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="232" cy="316" r="2.04" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.04;1.02;2.04"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="423" cy="303" r="1.97" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.97;0.98;1.97"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="388" cy="206" r="0.3" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.3;0.15;0.3"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="94" cy="360" r="0.5" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.5;0.25;0.5"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="144" cy="461" r="2.18" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.18;1.09;2.18"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="150" cy="180" r="0.6" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.6;0.3;0.6"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="155" cy="394" r="0.53" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.53;0.26;0.53"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="298" cy="95" r="0.92" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.92;0.46;0.92"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="370" cy="379" r="1.17" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.17;0.59;1.17"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="229" cy="61" r="0.85" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.85;0.43;0.85"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="427" cy="391" r="0.63" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.63;0.32;0.63"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="159" cy="283" r="1.18" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.18;0.59;1.18"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="74" cy="317" r="0.91" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.91;0.45;0.91"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="37" cy="63" r="1.49" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.49;0.75;1.49"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="66" cy="321" r="1.2" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.2;0.6;1.2"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="228" cy="440" r="0.59" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.59;0.3;0.59"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="170" cy="125" r="1.37" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.37;0.69;1.37"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="266" cy="289" r="2.04" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.04;1.02;2.04"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="317" cy="50" r="0.82" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.82;0.41;0.82"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="272" cy="486" r="1.43" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.43;0.72;1.43"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="334" cy="220" r="1.76" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.76;0.88;1.76"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="84" cy="367" r="0.78" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.78;0.39;0.78"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="425" cy="273" r="0.78" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.78;0.39;0.78"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="40" cy="57" r="0.79" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.79;0.39;0.79"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="73" cy="476" r="0.52" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.52;0.26;0.52"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="51" cy="429" r="0.93" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.93;0.47;0.93"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="32" cy="180" r="0.63" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.63;0.31;0.63"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="351" cy="476" r="0.23" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.23;0.12;0.23"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="351" cy="495" r="1.99" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.99;0.99;1.99"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="154" cy="365" r="0.71" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.71;0.35;0.71"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="323" cy="337" r="0.6" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.6;0.3;0.6"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="371" cy="18" r="1.89" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.89;0.95;1.89"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="49" cy="207" r="0.8" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.8;0.4;0.8"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="410" cy="421" r="1.2" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.2;0.6;1.2"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="99" cy="427" r="1.94" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.94;0.97;1.94"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="206" cy="332" r="0.71" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.71;0.35;0.71"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="293" cy="53" r="2.0" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.0;1.0;2.0"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="223" cy="389" r="0.44" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.44;0.22;0.44"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="410" cy="144" r="0.22" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.22;0.11;0.22"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="469" cy="29" r="1.11" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.11;0.56;1.11"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="236" cy="443" r="1.99" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.99;0.99;1.99"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="420" cy="207" r="2.13" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.13;1.07;2.13"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="288" cy="416" r="1.65" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.65;0.83;1.65"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="294" cy="484" r="1.05" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.05;0.52;1.05"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="386" cy="133" r="2.0" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.0;1.0;2.0"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="29" cy="263" r="0.27" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.27;0.13;0.27"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="114" cy="233" r="0.85" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.85;0.43;0.85"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="376" cy="159" r="2.07" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.07;1.03;2.07"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="227" cy="77" r="1.11" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.11;0.55;1.11"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="367" cy="336" r="0.37" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.37;0.19;0.37"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="8s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="284" cy="275" r="0.33" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.33;0.16;0.33"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="403" cy="463" r="0.61" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.61;0.3;0.61"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="468" cy="95" r="1.84" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.84;0.92;1.84"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="436" cy="407" r="0.2" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.2;0.1;0.2"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="363" cy="494" r="1.24" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.24;0.62;1.24"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="428" cy="433" r="1.54" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.54;0.77;1.54"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="6s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="52" cy="310" r="0.42" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.42;0.21;0.42"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="68" cy="218" r="0.98" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.98;0.49;0.98"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="25" cy="285" r="0.68" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.68;0.34;0.68"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="177" cy="45" r="1.92" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.92;0.96;1.92"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="1s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="152" cy="351" r="1.78" fill="rgb(148,148,148)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.78;0.89;1.78"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(148,148,148);rgb(74,74,74);rgb(148,148,148)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="154" cy="348" r="1.41" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.41;0.71;1.41"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="2s" dur="3s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="320" cy="160" r="2.15" fill="rgb(128,128,128)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="2.15;1.07;2.15"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(128,128,128);rgb(64,64,64);rgb(128,128,128)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="309" cy="65" r="0.91" fill="rgb(64,64,64)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="0.91;0.46;0.91"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(64,64,64);rgb(32,32,32);rgb(64,64,64)"
+            keyTimes="0;0.5;1"
+            begin="3s" dur="7s"
+            repeatCount="indefinite" />
+    </circle>
+	<circle cx="319" cy="461" r="1.67" fill="rgb(84,84,84)" >
+        <animate attributeName="r"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="1.67;0.84;1.67"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+        <animate attributeName="fill"
+            calcMode="spline"
+            keySplines="0.3 0 0.7 1;0.3 0 0.7 1"
+            values="rgb(84,84,84);rgb(42,42,42);rgb(84,84,84)"
+            keyTimes="0;0.5;1"
+            begin="0s" dur="4s"
+            repeatCount="indefinite" />
+    </circle>
+</svg>
