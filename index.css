@@ -59,8 +59,8 @@ header.site-header a {
     transition: color .15s ease-in-out;
 }
 header.site-header a:hover {
-    color: #9ca7ef;
-    /* color: #425393; */
+    /* color: #9ca7ef; */
+    color: #425393;
     text-decoration: none;
 }
 
