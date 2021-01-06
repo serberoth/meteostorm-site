@@ -33,6 +33,7 @@ h1.title {
 }
 
 h2.sub-title {
+    color: orange;
     text-shadow: 3px 3px gray;
 }
 
