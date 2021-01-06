@@ -32,6 +32,17 @@ h1.title {
     color: orange;
 }
 
+h2.sub-title {
+    text-shadow: 3px 3px gray;
+}
+
+p.content {
+    text-shadow: 2px 2px gray;
+}
+ul.content {
+    list-style: none;
+}
+
 .container {
     max-width: 960px;
 }
