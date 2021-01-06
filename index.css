@@ -49,23 +49,40 @@ ul.content {
     max-width: 960px;
 }
   
-/*
- * Custom translucent site header
- */
-.site-header {
+header.site-header {
     background-color: rgba(255, 255, 255, 0.85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
 }
-.site-header a {
+header.site-header a {
     color: #5e7fe6;
     transition: color .15s ease-in-out;
 }
-.site-header a:hover {
+header.site-header a:hover {
     color: #9ca7ef;
     /* color: #425393; */
     text-decoration: none;
 }
+
+footer.site-footer {
+    margin-top: 100px !important;
+    background-color: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+footer.site-footer * {
+    color: #606060;
+}
+footer.site-footer a {
+    color: #5e7fe6;
+    transition: color .15s ease-in-out;
+}
+footer.site-footer a:hover {
+    /* color: #9ca7ef; */
+    color: #425393;
+    text-decoration: none;
+}
+
 
 .bg-image {
     background-color: rgba(54, 54, 54, 0.7);
