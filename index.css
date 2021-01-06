@@ -6,11 +6,14 @@
 }
 
 * {
+    font-family: 'Pixel Operator';
+    color: white;
+}
+
+body {
     background-image: url("images/starfield.svg");
     background-repeat: repeat;
     background-size: auto;
-    font-family: 'Pixel Operator';
-    color: white;
 }
 
 a {
@@ -37,48 +40,34 @@ h1.title {
  * Custom translucent site header
  */
 .site-header {
-    background-color: rgba(255, 255, 255, .85);
+    background-color: rgba(255, 255, 255, 0.85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-    color: #8e8e8e;
+    color: #5e7fe6;
     transition: color .15s ease-in-out;
 }
 .site-header a:hover {
-    color: #fff;
+    color: #9ca7ef;
+    /* color: #425393; */
     text-decoration: none;
 }
 
-.product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    transform: rotate(30deg);
+.bg-image {
+    background-color: rgba(54, 54, 54, 0.7);
+    border-radius: 28px;
 }
 
-.product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 5px;
+.txt-justify {
+    text-align: justify;
 }
 
-.product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
-}
+.txt-vcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 /*
  * Extra utilities
