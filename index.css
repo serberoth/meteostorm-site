@@ -84,9 +84,10 @@ footer.site-footer a:hover {
 }
 
 
-.bg-image {
+div.bg-image {
     background-color: rgba(54, 54, 54, 0.7);
     border-radius: 28px;
+    padding-bottom: 50px;
 }
 
 .txt-justify {
