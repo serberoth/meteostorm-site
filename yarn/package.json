@@ -1,0 +1,11 @@
+{
+    "name": "meteostorm",
+    "version": "1.0.0",
+    "description": "MeteoStorm Game",
+    "scripts": {
+        "start": "yarn node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
