@@ -31,6 +31,19 @@ h1.title {
     text-shadow: 4px 4px #a9a9a9, 8px 8px gray, 12px 12px #545454;
     color: orange;
 }
+@media (max-width: 900px) {
+    h1.title {
+        font-size: 60pt;
+        text-shadow: 3px 3px #a9a9a9, 6px 6px gray, 9px 9px #545454;
+    }
+}
+@media (max-width: 768px) {
+    h1.title {
+        font-size: 36pt;
+        text-shadow: 2px 2px #a9a9a9, 4px 4px gray, 6px 6px #545454;
+    }
+}
+
 
 h2.sub-title {
     color: orange;
